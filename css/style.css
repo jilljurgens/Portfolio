@@ -161,7 +161,7 @@ i {
   color: #636363;
 }
 
-.devicon-git-plain, .devicon-github-plain, .devicon-gitlab-plain, .devicon-jquery-plain, .devicon-mongodb-plain, .devicon-html5-plain, .devicon-atom-original, .devicon-css3-plain, .devicon-nodejs-plain, .devicon-react-original, .devicon-express-original {
+.devicon-git-plain, .devicon-github-plain, .devicon-gitlab-plain, .devicon-jquery-plain, .devicon-mongodb-plain, .devicon-html5-plain, .devicon-atom-original, .devicon-css3-plain, .devicon-nodejs-plain, .devicon-react-original, .devicon-express-original, .devicon-javascript-plain, .devicon-mysql-plain {
   margin-left: 5px;
   font-size: 40px;
   color: black;
@@ -228,7 +228,7 @@ i {
 /* ============   SKILLS ==============*/
 
 #frontList {
-  text-align: left;
+  text-align: center;
   list-style: none;
   font-weight: 600;
   font-size: 20px;
@@ -271,7 +271,7 @@ ul#frontList li, ul#backList li {
   height: 100px;
   line-height: 7;
   font-size: 14px;
-  float: left;
+  float: center;
 }
 
 /*== PORTFOLIO STYLE==*/
@@ -281,8 +281,15 @@ ul#frontList li, ul#backList li {
     font-weight: 300;
     margin-bottom: 40px;
 }
+#experience{
+background-color:#CCCCCC;
+margin-bottom: 40px;
+}
+#education{
+  margin-bottom: 100px;
+}
 
-.portTag:before,.portTag:after {
+/*.portTag:before,.portTag:after {
     content: "";
     background: #ccc;
     display: inline-block;
@@ -290,7 +297,11 @@ ul#frontList li, ul#backList li {
     position: relative;
     width: 42%;
     vertical-align: middle;
+}*/
+#collection, #exper, #edu {
+  text-align: center;
 }
+
 .portTag:before {
     right: 0.5em;
 }
